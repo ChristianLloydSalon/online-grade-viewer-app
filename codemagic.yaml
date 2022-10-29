@@ -26,7 +26,7 @@ workflows:
           ls -la $FCI_BUILD_DIR
           echo ${CM_KEYSTORE} | base64 --decode > "$FCI_BUILD_DIR/android/app/keystore.jks"
           echo ${CM_KEY_PROPERTIES} | base64 --decode > "$FCI_BUILD_DIR/android/key.properties"
-          echo ${CM_FASTLANE_ENV_DEFAULT} | base64 --decode > "$FCI_BUILD_DIR/android/fastlane/env.default"
+          echo ${CM_FASTLANE_ENV_DEFAULT} | base64 --decode > "$FCI_BUILD_DIR/android/fastlane/.env.default"
       - name: Android Fastlane Release
         script: |
           gem install bundler:1.17.2
