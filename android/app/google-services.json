@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "544512006934",
+    "project_id": "online-grade-viewer-app",
+    "storage_bucket": "online-grade-viewer-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:544512006934:android:75d79759c849ffc678ce37",
+        "android_client_info": {
+          "package_name": "bcc.grade.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "544512006934-ch8egalac8lksd9j3en5de8nu6b02oau.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmjDqDSs3lzD9uswidQa_CfuQkRk6ff4A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "544512006934-ch8egalac8lksd9j3en5de8nu6b02oau.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
