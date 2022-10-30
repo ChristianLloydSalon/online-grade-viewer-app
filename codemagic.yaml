@@ -15,6 +15,9 @@ workflows:
           include: true
           source: true
     scripts:
+      - name: Build Release Notes
+        script: |
+          sh ./scripts/create-release-notes.sh
       - name: Unit Testing
         script: |
           echo "flutter.sdk=$HOME/programs/flutter" > "$FCI_BUILD_DIR/android/local.properties"
@@ -54,6 +57,9 @@ workflows:
           include: true
           source: true
     scripts:
+      - name: Build Release Notes
+        script: |
+          sh ./scripts/create-release-notes.sh
       - name: Unit Testing
         script: |
           echo "flutter.sdk=$HOME/programs/flutter" > "$FCI_BUILD_DIR/android/local.properties"
