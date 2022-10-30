@@ -19,6 +19,8 @@ workflows:
           echo "flutter.sdk=$HOME/programs/flutter" > "$FCI_BUILD_DIR/android/local.properties"
           flutter clean
           flutter pub get
+          sh ./scripts/create-env.sh
+          $FLUTTER_ROOT/bin/dart env.dart
           flutter analyze
           flutter test
       - name: Pre-release scripts

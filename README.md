@@ -15,6 +15,16 @@ For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
 
+### Environment Variables
+#### Initialize (Local)
+- run `dart env.dart` to create `lib/config/environment.dart` file
+
+#### Update Variables
+- https://codemagic.io/app/635cffce6520fbd2d5c6d87e/settings (Environment Variables Tab)
+- `.env` file with values
+- `/scripts/create-env.sh` file
+- `env.dart` file
+
 
 ### Folder Structure
 
