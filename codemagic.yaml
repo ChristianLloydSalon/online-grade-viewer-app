@@ -50,7 +50,7 @@ workflows:
       events:
         - push
       branch_patterns:
-        - pattern: master
+        - pattern: production
           include: true
           source: true
     scripts:
