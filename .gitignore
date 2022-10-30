@@ -49,3 +49,6 @@ app.*.map.json
 # Environment Variables
 /lib/config/environment.dart
 .env
+
+# RELEASE
+RELEASE.md
